@@ -1,40 +1,24 @@
 {
-  "name": "npm-metadata-raw",
-  "description": "Retrieve the metadata for every package on NPM and store it in a level* database",
-  "version": "0.0.2",
+  "name": "uuid",
+  "description": "generate a v4 UUID without external dependencies",
+  "version": "0.0.1",
   "main": "index.js",
   "browser": "index.js",
-  "dependencies": {
-    "map-async": "~0.1.1",
-    "monotonic-timestamp": "0.0.8",
-    "batch-stream": "0.0.1",
-    "stream-combiner": "0.0.2",
-    "level-delete-range": "~0.1.0",
-    "JSONStream": "~0.7.1",
-    "through2": "~0.2.3",
-    "npm-stats": "~0.3.0"
-  },
+  "dependencies": { },
   "devDependencies": {},
   "scripts": {},
-  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+  "author": "Karl Redgate <karl.redgate@gmail.com> (http://karlredgate.github.io/)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/hughsk/npm-metadata-raw"
+    "url": "git://github.com/karlredgate/uuid.js"
   },
   "bugs": {
-    "url": "https://github.com/hughsk/npm-metadata-raw/issues"
+    "url": "https://github.com/karlredgate/uuid.js/issues"
   },
-  "homepage": "https://github.com/hughsk/npm-metadata-raw",
+  "homepage": "https://github.com/karlredgate/uuid.js
   "keywords": [
-    "npm",
     "metadata",
-    "packages",
-    "storage",
-    "code",
-    "analytics",
-    "modules",
-    "tool",
-    "level"
+    "packages"
   ]
 }
